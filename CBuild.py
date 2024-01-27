@@ -10,8 +10,10 @@ def check_script():
         print(sys.argv)
 
 
+# open the file and write into it.
 
-#open the file and write into it.
+with open()
+
 
 
 if __name__ == "__main__":
