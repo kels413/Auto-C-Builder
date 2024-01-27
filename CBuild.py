@@ -21,5 +21,9 @@ if __name__ == "__main__":
 
 int main(void)
 {
-    
+
 }
+
+
+def hello():
+    print("hello")
