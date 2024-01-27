@@ -13,8 +13,9 @@ def check_script():
 # open the file and write into it.
 
 with open(sys.argv[1], "w") as file:
-    name = "kelly\n"
-    file.write(name)
+    stdio = "#include <stdio.h>"
+    stdlib = "#include <stdlib.h>"
+    file.write(stdio, stdlib)
 print("data written", sys.argv[1])
 
 
