@@ -13,6 +13,5 @@ def check_script():
             file.write(stdlib)
         print("data written", sys.argv[1])
 
-
 if __name__ == "__main__":
     check_script()
