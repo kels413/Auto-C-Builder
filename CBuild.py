@@ -15,6 +15,7 @@ def check_script():
 with open(sys.argv[1], "w") as file:
     name = "kelly"
     file.write(name)
+p
 
 
 
