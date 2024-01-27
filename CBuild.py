@@ -1,5 +1,4 @@
 import sys
-
 def check_script():
     if len(sys.argv) > 2:
         print(f"Error: Usage: {sys.argv[0]} <name of script>")
