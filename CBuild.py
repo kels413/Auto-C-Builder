@@ -15,7 +15,8 @@ def check_script():
 with open(sys.argv[1], "w") as file:
     stdio = "#include <stdio.h>"
     stdlib = "#include <stdlib.h>"
-    file.write(stdio, stdlib)
+    file.write(stdio)
+    file.write(stdlib)
 print("data written", sys.argv[1])
 
 
