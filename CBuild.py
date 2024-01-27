@@ -15,8 +15,7 @@ def check_script():
 with open(sys.argv[1], "w") as file:
     name = "kelly"
     file.write(name)
-print("data written")
-
+print("data written", sys.argv[1])
 
 
 if __name__ == "__main__":
