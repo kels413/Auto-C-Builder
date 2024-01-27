@@ -23,7 +23,3 @@ int main(void)
 {
 
 }
-
-
-def hello():
-    print("hello")
