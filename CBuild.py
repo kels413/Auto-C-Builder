@@ -12,7 +12,9 @@ def check_script():
 
 # open the file and write into it.
 
-with open()
+with open(sys.argv[1], "w") as file:
+    name = "kelly"
+    file.write(name)
 
 
 
